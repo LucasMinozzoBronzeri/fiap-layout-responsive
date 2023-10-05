@@ -1,0 +1,18 @@
+.Lista{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 0;
+    background-color: blue;
+}
+
+.Lis{
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .Lista{
+        flex-direction: column;
+    }
+    
+}
